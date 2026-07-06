@@ -1,0 +1,42 @@
+# Primjer fajla poremecaja tereta za case57 (n_bus=57, baseMVA=100)
+# Sve P/Q vrijednosti su u per-unit (baseMVA kao gore), isto kao origPd/origQd
+# koje racuna getAllBusInfo() (MW / baseMVA).
+#
+# PLOT red mora biti prije svih BUS blokova.
+PLOT 1 2 3 6 8 9 12
+
+# Cvor 12  (orig: Pd=377 MW, Qd=24 MVAr -> 3.77 / 0.24 pu)
+BUS 12
+0.5  5.278  0.336
+6.0  3.77  0.24
+END
+
+# Cvor 8  (orig: Pd=150 MW, Qd=22 MVAr -> 1.5 / 0.22 pu)
+BUS 8
+0.5  2.1  0.308
+6.0  1.5  0.22
+END
+
+# Cvor 9  (orig: Pd=121 MW, Qd=26 MVAr -> 1.21 / 0.26 pu)
+BUS 9
+0.5  1.694  0.364
+6.0  1.21  0.26
+END
+
+# Cvor 2  (orig: Pd=3 MW, Qd=88 MVAr -> 0.03 / 0.88 pu)
+BUS 2
+0.5  0.042  1.232
+6.0  0.03  0.88
+END
+
+# Cvor 6  (orig: Pd=75 MW, Qd=2 MVAr -> 0.75 / 0.02 pu)
+BUS 6
+0.5  1.05  0.028
+6.0  0.75  0.02
+END
+
+# Cvor 1  (orig: Pd=55 MW, Qd=17 MVAr -> 0.55 / 0.17 pu)
+BUS 1
+0.5  0.77  0.238
+6.0  0.55  0.17
+END

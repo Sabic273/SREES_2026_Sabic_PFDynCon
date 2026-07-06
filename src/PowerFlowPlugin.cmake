@@ -1,0 +1,44 @@
+set(POWERFLOWPLUGIN_NAME powerflow)				#Naziv prvog projekta u solution-u
+
+# Traženje fajlova direktno u trenutnom direktoriju (src)
+file(GLOB POWERFLOWPLUGIN_CPP_COMMON_SOURCES  ${CMAKE_CURRENT_LIST_DIR}/*.cpp)
+file(GLOB POWERFLOWPLUGIN_CPP_COMMON_INCS  ${CMAKE_CURRENT_LIST_DIR}/*.h)
+
+file(GLOB POWERFLOWPLUGIN_INC_GUI  ${NATID_SDK_INC}/gui/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_TD  ${NATID_SDK_INC}/td/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_CNT  ${NATID_SDK_INC}/cnt/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_MU  ${NATID_SDK_INC}/mu/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_MEM  ${NATID_SDK_INC}/mem/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_FO ${NATID_SDK_INC}/fo/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_SC ${NATID_SDK_INC}/sc/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_SYST ${NATID_SDK_INC}/syst/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_DENSE ${NATID_SDK_INC}/dense/*.h)
+file(GLOB POWERFLOWPLUGIN_INC_SPARSE ${NATID_SDK_INC}/sparse/*.h)
+
+# add shared library (plugin is a shared executatable binary file)
+add_library(${POWERFLOWPLUGIN_NAME} SHARED ${POWERFLOWPLUGIN_CPP_COMMON_SOURCES} ${POWERFLOWPLUGIN_INC_GUI} ${POWERFLOWPLUGIN_CPP_COMMON_INCS} 
+							${POWERFLOWPLUGIN_INC_TD} ${POWERFLOWPLUGIN_INC_SYST} 
+							${POWERFLOWPLUGIN_INC_CNT} ${POWERFLOWPLUGIN_INC_MU} ${POWERFLOWPLUGIN_INC_MEM} ${POWERFLOWPLUGIN_INC_FO}
+							${POWERFLOWPLUGIN_INC_SC} ${POWERFLOWPLUGIN_INC_DENSE} ${POWERFLOWPLUGIN_INC_SPARSE})
+
+source_group("inc\\inc"        FILES ${POWERFLOWPLUGIN_CPP_COMMON_INCS})
+source_group("inc\\gui"        FILES ${POWERFLOWPLUGIN_INC_GUI})
+source_group("inc\\td"        FILES ${POWERFLOWPLUGIN_INC_TD})
+source_group("inc\\cnt"        FILES ${POWERFLOWPLUGIN_INC_CNT})
+source_group("inc\\dense"      FILES ${POWERFLOWPLUGIN_INC_DENSE})
+source_group("inc\\mu"        FILES ${POWERFLOWPLUGIN_INC_MU})
+source_group("inc\\mem"        FILES ${POWERFLOWPLUGIN_INC_MEM})
+source_group("inc\\fo"        FILES ${POWERFLOWPLUGIN_INC_FO})
+source_group("inc\\sc"        FILES ${POWERFLOWPLUGIN_INC_SC})
+source_group("inc\\sparse"        FILES ${POWERFLOWPLUGIN_INC_SPARSE})
+source_group("inc\\syst"        FILES ${POWERFLOWPLUGIN_INC_SYST})
+
+source_group("src\\cpp"			FILES ${POWERFLOWPLUGIN_CPP_COMMON_SOURCES})
+
+target_link_libraries(${POWERFLOWPLUGIN_NAME} debug ${MU_LIB_DEBUG} optimized ${MU_LIB_RELEASE} 
+										debug ${MATRIX_LIB_DEBUG} optimized ${MATRIX_LIB_RELEASE}
+									  debug ${NATGUI_LIB_DEBUG} optimized ${NATGUI_LIB_RELEASE})
+									
+target_compile_definitions(${POWERFLOWPLUGIN_NAME} PUBLIC PLUGIN_EXPORTS)
+
+#setIDEPropertiesForLib(${POWERFLOWPLUGIN_NAME})

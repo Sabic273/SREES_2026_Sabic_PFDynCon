@@ -1,0 +1,36 @@
+# case5: ILUSTRATIVNI/TIPICNI dinamicki parametri generatora.
+# Ovo NISU stvarni proizvodjacki/utility podaci (takvi javno ne postoje za
+# ovaj test sistem na nivou pojedinacnog generatora) - H je blago skaliran
+# prema relativnoj velicini jedinice (Pmax) unutar OVOG sistema, Xd/Xd' itd.
+# su reprezentativne tipicne vrijednosti. Zamijeni realnim podacima ako ih imas.
+# Generatorskih cvorova: 5
+
+GEN 1
+H=2.8 D=2.0 Xd=0.4656 Xdp=0.194 Xq=0.4423 Xqp=0.2716
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 2
+H=3.775 D=2.0 Xd=0.4188 Xdp=0.1745 Xq=0.3979 Xqp=0.2443
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 3
+H=6.4 D=2.0 Xd=0.2928 Xdp=0.122 Xq=0.2782 Xqp=0.1708
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 4
+H=4.0 D=2.0 Xd=0.408 Xdp=0.17 Xq=0.3876 Xqp=0.238
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 5
+H=7.0 D=2.0 Xd=0.264 Xdp=0.11 Xq=0.2508 Xqp=0.154
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END

@@ -1,0 +1,42 @@
+# Primjer fajla poremecaja tereta za case_ACTIVSg500 (n_bus=500, baseMVA=100)
+# Sve P/Q vrijednosti su u per-unit (baseMVA kao gore), isto kao origPd/origQd
+# koje racuna getAllBusInfo() (MW / baseMVA).
+#
+# PLOT red mora biti prije svih BUS blokova.
+PLOT 9 16 17 18 22 49 50 59 142 321 424 474
+
+# Cvor 474  (orig: Pd=167.22 MW, Qd=44.59 MVAr -> 1.6722 / 0.4459 pu)
+BUS 474
+0.5  2.3411  0.6243
+6.0  1.6722  0.4459
+END
+
+# Cvor 142  (orig: Pd=161.34 MW, Qd=43.02 MVAr -> 1.6134 / 0.4302 pu)
+BUS 142
+0.5  2.2588  0.6023
+6.0  1.6134  0.4302
+END
+
+# Cvor 424  (orig: Pd=157.1 MW, Qd=41.89 MVAr -> 1.571 / 0.4189 pu)
+BUS 424
+0.5  2.1994  0.5865
+6.0  1.571  0.4189
+END
+
+# Cvor 321  (orig: Pd=150.42 MW, Qd=40.11 MVAr -> 1.5042 / 0.4011 pu)
+BUS 321
+0.5  2.1059  0.5615
+6.0  1.5042  0.4011
+END
+
+# Cvor 22  (orig: Pd=148.7 MW, Qd=39.65 MVAr -> 1.487 / 0.3965 pu)
+BUS 22
+0.5  2.0818  0.5551
+6.0  1.487  0.3965
+END
+
+# Cvor 59  (orig: Pd=140.94 MW, Qd=37.58 MVAr -> 1.4094 / 0.3758 pu)
+BUS 59
+0.5  1.9732  0.5261
+6.0  1.4094  0.3758
+END

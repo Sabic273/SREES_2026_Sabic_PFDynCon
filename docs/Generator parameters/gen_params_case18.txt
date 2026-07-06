@@ -1,0 +1,12 @@
+# case18: distribucioni sistem sa JEDNOM 'generatorskom' sabirnicom
+# (u stvari mrezni/transformatorski prikljucak na nadredjenu mrezu, ne
+# stvaran sinhroni generator). Parametri ispod su ILUSTRATIVNI placeholder
+# vrijednosti - fizicki smisao swing-jednacine na ovom cvoru je upitan.
+# Koristi ih samo za testiranje mehanike modela, ne za stvarnu analizu.
+# Generatorskih cvorova: 1
+
+GEN 51
+H=7.0 D=2.0 Xd=0.264 Xdp=0.11 Xq=0.2508 Xqp=0.154
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END

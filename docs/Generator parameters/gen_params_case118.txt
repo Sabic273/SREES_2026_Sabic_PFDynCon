@@ -1,0 +1,330 @@
+# case118: ILUSTRATIVNI/TIPICNI dinamicki parametri generatora.
+# Ovo NISU stvarni proizvodjacki/utility podaci (takvi javno ne postoje za
+# ovaj test sistem na nivou pojedinacnog generatora) - H je blago skaliran
+# prema relativnoj velicini jedinice (Pmax) unutar OVOG sistema, Xd/Xd' itd.
+# su reprezentativne tipicne vrijednosti. Zamijeni realnim podacima ako ih imas.
+# Generatorskih cvorova: 54
+
+GEN 1
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 4
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 6
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 8
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 10
+H=5.574 D=2.0 Xd=0.3324 Xdp=0.1385 Xq=0.3158 Xqp=0.1939
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 12
+H=3.534 D=2.0 Xd=0.4303 Xdp=0.1793 Xq=0.4088 Xqp=0.251
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 15
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 18
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 19
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 24
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 25
+H=4.288 D=2.0 Xd=0.3941 Xdp=0.1642 Xq=0.3744 Xqp=0.2299
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 26
+H=4.814 D=2.0 Xd=0.3689 Xdp=0.1537 Xq=0.3505 Xqp=0.2152
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 27
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 31
+H=3.098 D=2.0 Xd=0.4512 Xdp=0.188 Xq=0.4286 Xqp=0.2632
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 32
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 34
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 36
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 40
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 42
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 46
+H=3.165 D=2.0 Xd=0.4481 Xdp=0.1867 Xq=0.4257 Xqp=0.2614
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 49
+H=4.199 D=2.0 Xd=0.3984 Xdp=0.166 Xq=0.3785 Xqp=0.2324
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 54
+H=3.327 D=2.0 Xd=0.4404 Xdp=0.1835 Xq=0.4184 Xqp=0.2569
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 55
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 56
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 59
+H=3.925 D=2.0 Xd=0.4116 Xdp=0.1715 Xq=0.391 Xqp=0.2401
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 61
+H=3.953 D=2.0 Xd=0.4102 Xdp=0.1709 Xq=0.3897 Xqp=0.2393
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 62
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 65
+H=5.244 D=2.0 Xd=0.3482 Xdp=0.1451 Xq=0.3308 Xqp=0.2031
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 66
+H=5.25 D=2.0 Xd=0.348 Xdp=0.145 Xq=0.3306 Xqp=0.203
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 69
+H=7.0 D=2.0 Xd=0.264 Xdp=0.11 Xq=0.2508 Xqp=0.154
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 70
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 72
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 73
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 74
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 76
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 77
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 80
+H=5.725 D=2.0 Xd=0.3252 Xdp=0.1355 Xq=0.3089 Xqp=0.1897
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 85
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 87
+H=3.081 D=2.0 Xd=0.4522 Xdp=0.1884 Xq=0.4296 Xqp=0.2638
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 89
+H=6.451 D=2.0 Xd=0.2904 Xdp=0.121 Xq=0.2759 Xqp=0.1694
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 90
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 91
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 92
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 99
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 100
+H=4.467 D=2.0 Xd=0.3857 Xdp=0.1607 Xq=0.3664 Xqp=0.225
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 103
+H=3.282 D=2.0 Xd=0.4426 Xdp=0.1844 Xq=0.4205 Xqp=0.2582
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 104
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 105
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 107
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 110
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 111
+H=3.26 D=2.0 Xd=0.4435 Xdp=0.1848 Xq=0.4213 Xqp=0.2587
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 112
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 113
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END
+
+GEN 116
+H=3.059 D=2.0 Xd=0.4531 Xdp=0.1888 Xq=0.4304 Xqp=0.2643
+Tdop=7.5 Tqop=0.5 Tr=0.02 Tgov=0.3
+Ka=200.0 Ta=0.02 Ke=1.0 Te=0.8 Se=0.0 Kf=0.05 Tf=1.0 R=0.05 Rs=0.003
+END

@@ -1,0 +1,21 @@
+
+# Generator 1 (bus 1)
+GEN 1
+H=23.64 D=2 Xd=0.146 Xdp=0.0608 Xq=0.0969 Xqp=0.0969
+Tdop=8.96 Tqop=0.31 Tr=0.02 Tgov=0.3
+Ka=200 Ta=0.02 Ke=1.0 Te=0.8 Se=0 Kf=0.063 Tf=1 R=0.05 Rs=0.0
+END
+
+# Generator 2 (bus 2)
+GEN 2
+H=6.4 D=2 Xd=0.8958 Xdp=0.1198 Xq=0.8645 Xqp=0.1969
+Tdop=6.0 Tqop=0.535 Tr=0.02 Tgov=0.3
+Ka=200 Ta=0.02 Ke=1.0 Te=0.8 Se=0 Kf=0.063 Tf=1 R=0.05 Rs=0.0
+END
+
+# Generator 3 (bus 3)
+GEN 3
+H=3.01 D=2 Xd=1.3125 Xdp=0.1813 Xq=1.2578 Xqp=0.25
+Tdop=5.89 Tqop=0.6 Tr=0.02 Tgov=0.3
+Ka=200 Ta=0.02 Ke=1.0 Te=0.8 Se=0 Kf=0.063 Tf=1 R=0.05 Rs=0.0
+END
